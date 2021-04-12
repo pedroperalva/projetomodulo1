@@ -54,7 +54,7 @@ body{
 }
 a{
     text-align: center;
-    width: 35%;
+    width: 200px;
     color: red;
 	border: 3px solid rgb(255, 0, 0);
     border-width: 20%;
@@ -74,18 +74,15 @@ a:hover{
     color:green
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1600px){
     
 .titulo{
-    font-size: 45px;     
+    font-size: 55px;     
     text-align: center;
     
 }
 .pergunta{
     font-size: 25px;
-}
-a{
-    width: 200px;
 }
 }
 
