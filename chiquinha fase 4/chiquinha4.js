@@ -7,7 +7,7 @@ function personagemChaves (){
     if (escolha == 2){
 
         document.write(`
-        <div class="zerou">
+        <div class="texto">
         <p>O Jason responde: O coelho?\nChiquinha: Que te bate com o joelho! E acerta uma joelhada
         em cheio no Jason que se sente envergonhado por ter sido trollado por uma garotinha, e grita: NÃO ACREDITO! VOU EMBORA!
         </p>

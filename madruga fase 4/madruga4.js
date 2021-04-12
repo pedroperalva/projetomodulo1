@@ -7,7 +7,7 @@ function personagemChaves (){
     if (escolha == 1){
 
         document.write(`
-        <div class="zerou">
+        <div class="texto">
         <p>Você pula a janela, engana o Jason e foge! Se o Sr. Barriga não consegue te pegar, que dirá o Jason!
         </p>
         <p>Você zerou o, jogo parabéns!</p>

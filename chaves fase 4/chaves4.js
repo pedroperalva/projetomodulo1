@@ -7,7 +7,7 @@ function personagemChaves (){
     if (escolha == 1){
 
         document.write(`
-        <div class="zerou">
+        <div class="texto">
         <p>Você dá seu sanduíche de presunto para o Jason, que estava faminto e devora tudo com uma mordida! Porém 
         o Jason tem alergia a presunto, se sente sufocado, ajoelha no chão, e morre!</p>
         <p>Você zerou o jogo, parabéns!</p>
