@@ -9,7 +9,7 @@ function personagemChaves (){
         document.write(`
         <div class="texto">
         <p>Você começa a correr desesperadamente para a saida da vila e tropeça em um balde d'água (tinha que ser a Dona Florinda)
-        , olha para trás e vê o Jason vindo em sua direção, levanda rapidamente e continua a correr! Ao chegar no portão você se depara
+        , olha para trás e vê o Jason vindo em sua direção, levanta rapidamente e continua a correr! Ao chegar no portão você se depara
          com o portão trancado e percebe que terá de enfrentar o Jason! O que você fará?
         </p>
         <ul>
