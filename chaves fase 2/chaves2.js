@@ -11,7 +11,7 @@ function personagemChaves (){
         <p>Está tudo turvo, você vê uma fumaça verde, e escuta um grito muito alto: SATANÁÁÁÁÁÁÁÁS! Você cai para trás e 
         depois do susto, você resolve ir até os fundos da vila, ver se tem mais alguém acordado para contar com 
         muito medo sobre o que viu na casa da Bruxa do 71. Chegando nos fundos da vila você encontra o kiko de costas
-        , se mexendo de forma estranha, tremendo um pouco. Você encostra a mão no ombro dele e quando percebe ele está 
+        , se mexendo de forma estranha, tremendo um pouco. Você encosta a mão no ombro dele e quando percebe ele está 
         segurando um facão. Logo ele se vira para você e perceber que é o Jason vestido de kiko! O que você vai fazer?</p>
         <ul>
         <li>1- Perguntar se o Jason quer brincar?</li>
