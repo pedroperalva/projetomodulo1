@@ -2,6 +2,8 @@ personagemChaves ();
 
 function personagemChaves (){
 
+    while(true){
+
     var escolha = prompt ("1- Pular a janela?\n2- Pagar o aluguel?");
 
     if (escolha == 1){
@@ -14,21 +16,22 @@ function personagemChaves (){
 
         <a href="../index.html">Jogar de novo</a>
         </div>`)
+        break;
     }
 
     else if (escolha == 2){
 
-    document.write(`
-    <div class="texto">
-    <p>Você paga o aluguel! Que vergonha, o Sr. Madruga que conhecemos jamais faria isso!</p>
-    <p>VOCÊ PAGOU O ALUGUEL, GAME OVER!</p>
-    <a href="../index.html" class="escolha">Recomeçar jogo</a>
-    </div>`)
+        document.write(`
+        <div class="texto">
+        <p>Você paga o aluguel! Que vergonha, o Sr. Madruga que conhecemos jamais faria isso!</p>
+        <p>VOCÊ PAGOU O ALUGUEL, GAME OVER!</p>
+        <a href="../index.html" class="escolha">Recomeçar jogo</a>
+        </div>`)
+        break;
     }
     else{
-        alert ("escolha indevida, tente outra vez!");
-        personagemChaves ();
+        alert ("escolha indevida, responda com 1 ou 2");
         
     }
-    return escolha;
+}
 }

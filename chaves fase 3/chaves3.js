@@ -2,7 +2,9 @@ personagemChaves ();
 
 function personagemChaves (){
 
-    var escolha = prompt ("1- Perguntar se o Jason quer brincar?\n2- Sair correndo dali?");
+    while(true){
+
+        var escolha = prompt ("1- Perguntar se o Jason quer brincar?\n2- Sair correndo dali?");
 
     if (escolha == 2){
 
@@ -18,21 +20,23 @@ function personagemChaves (){
         </ul>
         <a href="../chaves fase 4/chaves4.html">Responder</a>
         </div>`)
+        break;
     }
 
     else if (escolha == 1){
 
-    document.write(`
-    <div class="texto">
-    <p>Você brinca com o Jason, e acaba sem um braço!</p>
-    <p>VOCÊ MORREU, GAME OVER!</p>
-    <a href="../index.html" class="escolha">Recomeçar jogo</a>
-    </div>`)
+        document.write(`
+        <div class="texto">
+        <p>Você brinca com o Jason, e acaba sem um braço!</p>
+        <p>VOCÊ MORREU, GAME OVER!</p>
+        <a href="../index.html" class="escolha">Recomeçar jogo</a>
+        </div>`)
+        break;
     }
-    else{
-        alert ("escolha indevida, tente outra vez!");
-        personagemChaves ();
-        
+    else {
+        alert ("escolha indevida, responda com 1 ou 2");     
     }
-    return escolha;
+
+    }
+
 }

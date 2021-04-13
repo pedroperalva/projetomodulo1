@@ -2,6 +2,8 @@ personagemChaves ();
 
 function personagemChaves (){
 
+    while(true){
+
     var escolha = prompt ("1-Bisbilhotar na janela da Bruxa do 71? \n 2-Abrir a porta da casa da Bruxa do 71?");
 
     if (escolha == 1){
@@ -18,7 +20,8 @@ function personagemChaves (){
         <li>2- Sair correndo dali?</li>
         </ul>
         <a href="../chaves fase 3/chaves3.html">Responder</a>
-        </div>`)
+        </div>`);
+        break;
     }
 
     else if (escolha == 2){
@@ -26,12 +29,12 @@ function personagemChaves (){
         <p>Você abre a porta e a bruxa do 71 joga um feitiço em você!</p>
         <p>VOCÊ MORREU, GAME OVER!</p>
         <a href="../index.html" class="escolha">Recomeçar jogo</a>
-        </div>`)
+        </div>`);
+        break;
     }
-    else{
-        alert ("escolha indevida, responda com 1 ou 2");
-        personagemChaves ();
-        
+    else{     
+        alert ("escolha indevida, responda com 1 ou 2");   
     }
-    return escolha;
+
+    }
 }

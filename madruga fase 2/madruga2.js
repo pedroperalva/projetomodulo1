@@ -2,6 +2,8 @@ personagemChaves ();
 
 function personagemChaves (){
 
+    while(true){
+
     var escolha = prompt ("1- Bater no Kiko? \n2- Deixar o Kiko escapar? ");
 
     if (escolha == 2){
@@ -19,6 +21,7 @@ function personagemChaves (){
         </ul>
         <a href="../madruga fase 3/madruga3.html">Responder</a>
         </div>`)
+        break;
     }
 
     else if (escolha == 1){
@@ -27,11 +30,11 @@ function personagemChaves (){
         <p>VOCÊ MORREU, GAME OVER!</p>
         <a href="../index.html" class="escolha">Recomeçar jogo</a>
         </div>`)
+        break;
     }
     else{
         alert ("escolha indevida, responda com 1 ou 2");
-        personagemChaves ();
         
     }
-    return escolha;
+}
 }

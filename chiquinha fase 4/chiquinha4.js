@@ -2,6 +2,8 @@ personagemChaves ();
 
 function personagemChaves (){
 
+    while(true){
+
     var escolha = prompt ("1- Acertar o Jason com a vassoura?\n2- Perguntar: Qual é o animal que é dentuço e que come o dia inteiro?");
 
     if (escolha == 2){
@@ -14,21 +16,22 @@ function personagemChaves (){
         <p>Você zerou o jogo, parabéns!</p>
         <a href="../index.html">Jogar de novo</a>
         </div>`)
+        break;
     }
 
     else if (escolha == 1){
 
-    document.write(`
-    <div class="texto">
-    <p>Você pega a vassoura, acerta a cabeça do Jason, e ele nem se mexe!</p>
-    <p>VOCÊ MORREU, GAME OVER!</p>
-    <a href="../index.html" class="escolha">Recomeçar jogo</a>
-    </div>`)
+        document.write(`
+        <div class="texto">
+        <p>Você pega a vassoura, acerta a cabeça do Jason, e ele nem se mexe!</p>
+        <p>VOCÊ MORREU, GAME OVER!</p>
+        <a href="../index.html" class="escolha">Recomeçar jogo</a>
+        </div>`)
+        break;
     }
     else{
-        alert ("escolha indevida, tente outra vez!");
-        personagemChaves ();
-        
+        alert ("escolha indevida, responda com 1 ou 2");
+                
     }
-    return escolha;
+}
 }
