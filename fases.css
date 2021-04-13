@@ -15,6 +15,7 @@ p {
     padding: 6px;
     border-radius: 10px;
     background-color: black;
+    text-shadow:white 1px 1px 1px;
 }
 .texto ul {
     color: red;
@@ -28,6 +29,7 @@ p {
     border-radius: 10px;
     background-color: black;
     margin-top: 5%;
+    text-shadow:white 1px 1px 1px;
 }
 a {
     color: red;
@@ -37,10 +39,12 @@ a {
     border-radius: 10px;
     background-color: black;
     margin-top: 5%;
+    text-shadow:white 1px 1px 1px;
 }
 a:hover {
     color: green
 }
+
 @media screen and (max-width: 425px) {
     .texto {
         font-size: 25px;
